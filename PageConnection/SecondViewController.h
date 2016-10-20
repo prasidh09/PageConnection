@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  PageConnection
 //
 //  Created by Prasidh srikanth on 10/19/16.
@@ -9,8 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 
-@interface ViewController : UIViewController<FBSDKLoginButtonDelegate>
-
+@interface SecondViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet FBSDKLoginButton *loginButton;
 @property (nonatomic, strong) IBOutlet UIButton *continueButton;
@@ -18,4 +17,3 @@
 - (IBAction)showLogin:(UIStoryboardSegue *)segue;
 
 @end
-

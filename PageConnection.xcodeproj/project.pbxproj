@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		637F4A751DB8824A00ECF65E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F4A731DB8824A00ECF65E /* SecondViewController.m */; };
+		637F4A761DB8824A00ECF65E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637F4A741DB8824A00ECF65E /* SecondViewController.xib */; };
+		637F4A791DB8917600ECF65E /* SCSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F4A781DB8917600ECF65E /* SCSettings.m */; };
 		63FFC2B11DB7CC9000E2BB73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FFC2B01DB7CC9000E2BB73 /* main.m */; };
 		63FFC2B41DB7CC9000E2BB73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FFC2B31DB7CC9000E2BB73 /* AppDelegate.m */; };
 		63FFC2B71DB7CC9000E2BB73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FFC2B61DB7CC9000E2BB73 /* ViewController.m */; };
@@ -15,6 +18,16 @@
 		63FFC2BF1DB7CC9000E2BB73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FFC2BD1DB7CC9000E2BB73 /* LaunchScreen.storyboard */; };
 		63FFC2CA1DB7CC9000E2BB73 /* PageConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FFC2C91DB7CC9000E2BB73 /* PageConnectionTests.m */; };
 		63FFC2D51DB7CC9000E2BB73 /* PageConnectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FFC2D41DB7CC9000E2BB73 /* PageConnectionUITests.m */; };
+		63FFC2EC1DB7DC5F00E2BB73 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FFC2EB1DB7DC5F00E2BB73 /* FBSDKLoginKit.framework */; };
+		63FFC2EE1DB7DD3800E2BB73 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FFC2ED1DB7DD3800E2BB73 /* FBSDKCoreKit.framework */; };
+		63FFC2F81DB7F53000E2BB73 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FFC2F71DB7F53000E2BB73 /* Bolts.framework */; };
+		63FFC3001DB7F88A00E2BB73 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FFC2FE1DB7F88A00E2BB73 /* Default.png */; };
+		63FFC3021DB7F95400E2BB73 /* PC_icon_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FFC3011DB7F95400E2BB73 /* PC_icon_40.png */; };
+		63FFC3041DB7FB2A00E2BB73 /* PC_icon_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FFC3031DB7FB2A00E2BB73 /* PC_icon_60.png */; };
+		63FFC3081DB7FC1100E2BB73 /* PC_icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FFC3071DB7FC1100E2BB73 /* PC_icon_120.png */; };
+		63FFC30A1DB818E200E2BB73 /* PC_Splash_Screen_640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FFC3091DB818E200E2BB73 /* PC_Splash_Screen_640_1136.png */; };
+		63FFC30D1DB81C5600E2BB73 /* PC_Splash_Screen_320_480.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FFC30B1DB81C5600E2BB73 /* PC_Splash_Screen_320_480.png */; };
+		63FFC30E1DB81C5600E2BB73 /* PC_Splash_Screen_1242_2208.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FFC30C1DB81C5600E2BB73 /* PC_Splash_Screen_1242_2208.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		637F4A721DB8824A00ECF65E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		637F4A731DB8824A00ECF65E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		637F4A741DB8824A00ECF65E /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		637F4A771DB8917600ECF65E /* SCSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSettings.h; path = "../../../FacebookSDKs-iOS-4.16.1/Samples/Scrumptious/scrumptious/SCSettings.h"; sourceTree = "<group>"; };
+		637F4A781DB8917600ECF65E /* SCSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSettings.m; path = "../../../FacebookSDKs-iOS-4.16.1/Samples/Scrumptious/scrumptious/SCSettings.m"; sourceTree = "<group>"; };
 		63FFC2AC1DB7CC9000E2BB73 /* PageConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FFC2B01DB7CC9000E2BB73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63FFC2B21DB7CC9000E2BB73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,16 @@
 		63FFC2D01DB7CC9000E2BB73 /* PageConnectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageConnectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FFC2D41DB7CC9000E2BB73 /* PageConnectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageConnectionUITests.m; sourceTree = "<group>"; };
 		63FFC2D61DB7CC9000E2BB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63FFC2EB1DB7DC5F00E2BB73 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../FacebookSDKs-iOS-4.16.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		63FFC2ED1DB7DD3800E2BB73 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../FacebookSDKs-iOS-4.16.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		63FFC2F71DB7F53000E2BB73 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../FacebookSDKs-iOS-4.16.1/Bolts.framework"; sourceTree = "<group>"; };
+		63FFC2FE1DB7F88A00E2BB73 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
+		63FFC3011DB7F95400E2BB73 /* PC_icon_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PC_icon_40.png; path = ../../PC_icon_40.png; sourceTree = "<group>"; };
+		63FFC3031DB7FB2A00E2BB73 /* PC_icon_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PC_icon_60.png; path = ../../PC_icon_60.png; sourceTree = "<group>"; };
+		63FFC3071DB7FC1100E2BB73 /* PC_icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PC_icon_120.png; path = ../../PC_icon_120.png; sourceTree = "<group>"; };
+		63FFC3091DB818E200E2BB73 /* PC_Splash_Screen_640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PC_Splash_Screen_640_1136.png; path = ../../PC_Splash_Screen_640_1136.png; sourceTree = "<group>"; };
+		63FFC30B1DB81C5600E2BB73 /* PC_Splash_Screen_320_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PC_Splash_Screen_320_480.png; path = ../../PC_Splash_Screen_320_480.png; sourceTree = "<group>"; };
+		63FFC30C1DB81C5600E2BB73 /* PC_Splash_Screen_1242_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PC_Splash_Screen_1242_2208.png; path = ../../PC_Splash_Screen_1242_2208.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FFC2F81DB7F53000E2BB73 /* Bolts.framework in Frameworks */,
+				63FFC2EC1DB7DC5F00E2BB73 /* FBSDKLoginKit.framework in Frameworks */,
+				63FFC2EE1DB7DD3800E2BB73 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,7 @@
 		63FFC2A31DB7CC9000E2BB73 = {
 			isa = PBXGroup;
 			children = (
+				63FFC2EA1DB7DC4A00E2BB73 /* Frameworks */,
 				63FFC2AE1DB7CC9000E2BB73 /* PageConnection */,
 				63FFC2C81DB7CC9000E2BB73 /* PageConnectionTests */,
 				63FFC2D31DB7CC9000E2BB73 /* PageConnectionUITests */,
@@ -101,12 +133,24 @@
 		63FFC2AE1DB7CC9000E2BB73 /* PageConnection */ = {
 			isa = PBXGroup;
 			children = (
+				637F4A771DB8917600ECF65E /* SCSettings.h */,
+				637F4A781DB8917600ECF65E /* SCSettings.m */,
 				63FFC2B21DB7CC9000E2BB73 /* AppDelegate.h */,
 				63FFC2B31DB7CC9000E2BB73 /* AppDelegate.m */,
 				63FFC2B51DB7CC9000E2BB73 /* ViewController.h */,
 				63FFC2B61DB7CC9000E2BB73 /* ViewController.m */,
 				63FFC2B81DB7CC9000E2BB73 /* Main.storyboard */,
+				637F4A721DB8824A00ECF65E /* SecondViewController.h */,
+				637F4A731DB8824A00ECF65E /* SecondViewController.m */,
+				637F4A741DB8824A00ECF65E /* SecondViewController.xib */,
 				63FFC2BB1DB7CC9000E2BB73 /* Assets.xcassets */,
+				63FFC30B1DB81C5600E2BB73 /* PC_Splash_Screen_320_480.png */,
+				63FFC3091DB818E200E2BB73 /* PC_Splash_Screen_640_1136.png */,
+				63FFC30C1DB81C5600E2BB73 /* PC_Splash_Screen_1242_2208.png */,
+				63FFC3071DB7FC1100E2BB73 /* PC_icon_120.png */,
+				63FFC3031DB7FB2A00E2BB73 /* PC_icon_60.png */,
+				63FFC3011DB7F95400E2BB73 /* PC_icon_40.png */,
+				63FFC2FE1DB7F88A00E2BB73 /* Default.png */,
 				63FFC2BD1DB7CC9000E2BB73 /* LaunchScreen.storyboard */,
 				63FFC2C01DB7CC9000E2BB73 /* Info.plist */,
 				63FFC2AF1DB7CC9000E2BB73 /* Supporting Files */,
@@ -138,6 +182,16 @@
 				63FFC2D61DB7CC9000E2BB73 /* Info.plist */,
 			);
 			path = PageConnectionUITests;
+			sourceTree = "<group>";
+		};
+		63FFC2EA1DB7DC4A00E2BB73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63FFC2F71DB7F53000E2BB73 /* Bolts.framework */,
+				63FFC2ED1DB7DD3800E2BB73 /* FBSDKCoreKit.framework */,
+				63FFC2EB1DB7DC5F00E2BB73 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +304,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				63FFC2BF1DB7CC9000E2BB73 /* LaunchScreen.storyboard in Resources */,
+				63FFC3001DB7F88A00E2BB73 /* Default.png in Resources */,
+				63FFC30E1DB81C5600E2BB73 /* PC_Splash_Screen_1242_2208.png in Resources */,
 				63FFC2BC1DB7CC9000E2BB73 /* Assets.xcassets in Resources */,
+				63FFC3041DB7FB2A00E2BB73 /* PC_icon_60.png in Resources */,
 				63FFC2BA1DB7CC9000E2BB73 /* Main.storyboard in Resources */,
+				63FFC30D1DB81C5600E2BB73 /* PC_Splash_Screen_320_480.png in Resources */,
+				63FFC3021DB7F95400E2BB73 /* PC_icon_40.png in Resources */,
+				637F4A761DB8824A00ECF65E /* SecondViewController.xib in Resources */,
+				63FFC3081DB7FC1100E2BB73 /* PC_icon_120.png in Resources */,
+				63FFC30A1DB818E200E2BB73 /* PC_Splash_Screen_640_1136.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637F4A751DB8824A00ECF65E /* SecondViewController.m in Sources */,
+				637F4A791DB8917600ECF65E /* SCSettings.m in Sources */,
 				63FFC2B71DB7CC9000E2BB73 /* ViewController.m in Sources */,
 				63FFC2B41DB7CC9000E2BB73 /* AppDelegate.m in Sources */,
 				63FFC2B11DB7CC9000E2BB73 /* main.m in Sources */,
@@ -425,7 +489,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 6GW65WCP85;
+				FRAMEWORK_SEARCH_PATHS = "/Users/prasidh/Documents/FacebookSDKs-iOS-4.16.1";
 				INFOPLIST_FILE = PageConnection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = prasidh41.blogspot.com.PageConnection;
@@ -437,7 +503,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 6GW65WCP85;
+				FRAMEWORK_SEARCH_PATHS = "/Users/prasidh/Documents/FacebookSDKs-iOS-4.16.1";
 				INFOPLIST_FILE = PageConnection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = prasidh41.blogspot.com.PageConnection;
@@ -514,6 +582,7 @@
 				63FFC2DB1DB7CC9000E2BB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63FFC2DC1DB7CC9000E2BB73 /* Build configuration list for PBXNativeTarget "PageConnectionTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +591,7 @@
 				63FFC2DE1DB7CC9000E2BB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63FFC2DF1DB7CC9000E2BB73 /* Build configuration list for PBXNativeTarget "PageConnectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +600,7 @@
 				63FFC2E11DB7CC9000E2BB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
