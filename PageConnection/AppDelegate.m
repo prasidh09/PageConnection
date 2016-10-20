@@ -18,16 +18,6 @@
 
 @implementation AppDelegate
 
-+ (void)initialize
-{
-    // Nib files require the type to have been loaded before they can do the wireup successfully.
-    // http://stackoverflow.com/questions/1725881/unknown-class-myclass-in-interface-builder-file-error-at-runtime
-    [FBSDKLoginButton class];
-    [FBSDKProfilePictureView class];
-    [FBSDKSendButton class];
-    [FBSDKShareButton class];
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;

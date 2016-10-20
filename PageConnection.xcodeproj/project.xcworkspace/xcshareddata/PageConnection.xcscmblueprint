@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "98D8B3CA2511035FC0973F19D60A38A7265F7BE4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D65A914673D2D336AF4B3F163ED3D1CED31A91A6" : 9223372036854775807,
+    "98D8B3CA2511035FC0973F19D60A38A7265F7BE4" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C7C7DF43-6E64-4A13-A607-D623C5BBA8BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D65A914673D2D336AF4B3F163ED3D1CED31A91A6" : "",
+    "98D8B3CA2511035FC0973F19D60A38A7265F7BE4" : "PageConnection\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PageConnection",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PageConnection.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/prasidh09\/PageConnection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "98D8B3CA2511035FC0973F19D60A38A7265F7BE4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/prasidh09\/iOS-FB-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D65A914673D2D336AF4B3F163ED3D1CED31A91A6"
+    }
+  ]
+}

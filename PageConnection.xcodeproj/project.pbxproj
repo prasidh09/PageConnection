@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		637F4A751DB8824A00ECF65E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F4A731DB8824A00ECF65E /* SecondViewController.m */; };
 		637F4A761DB8824A00ECF65E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637F4A741DB8824A00ECF65E /* SecondViewController.xib */; };
-		637F4A791DB8917600ECF65E /* SCSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 637F4A781DB8917600ECF65E /* SCSettings.m */; };
 		63FFC2B11DB7CC9000E2BB73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FFC2B01DB7CC9000E2BB73 /* main.m */; };
 		63FFC2B41DB7CC9000E2BB73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FFC2B31DB7CC9000E2BB73 /* AppDelegate.m */; };
 		63FFC2B71DB7CC9000E2BB73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FFC2B61DB7CC9000E2BB73 /* ViewController.m */; };
@@ -51,8 +50,6 @@
 		637F4A721DB8824A00ECF65E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		637F4A731DB8824A00ECF65E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		637F4A741DB8824A00ECF65E /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
-		637F4A771DB8917600ECF65E /* SCSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCSettings.h; path = "../../../FacebookSDKs-iOS-4.16.1/Samples/Scrumptious/scrumptious/SCSettings.h"; sourceTree = "<group>"; };
-		637F4A781DB8917600ECF65E /* SCSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCSettings.m; path = "../../../FacebookSDKs-iOS-4.16.1/Samples/Scrumptious/scrumptious/SCSettings.m"; sourceTree = "<group>"; };
 		63FFC2AC1DB7CC9000E2BB73 /* PageConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FFC2B01DB7CC9000E2BB73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63FFC2B21DB7CC9000E2BB73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,8 +130,6 @@
 		63FFC2AE1DB7CC9000E2BB73 /* PageConnection */ = {
 			isa = PBXGroup;
 			children = (
-				637F4A771DB8917600ECF65E /* SCSettings.h */,
-				637F4A781DB8917600ECF65E /* SCSettings.m */,
 				63FFC2B21DB7CC9000E2BB73 /* AppDelegate.h */,
 				63FFC2B31DB7CC9000E2BB73 /* AppDelegate.m */,
 				63FFC2B51DB7CC9000E2BB73 /* ViewController.h */,
@@ -144,13 +139,6 @@
 				637F4A731DB8824A00ECF65E /* SecondViewController.m */,
 				637F4A741DB8824A00ECF65E /* SecondViewController.xib */,
 				63FFC2BB1DB7CC9000E2BB73 /* Assets.xcassets */,
-				63FFC30B1DB81C5600E2BB73 /* PC_Splash_Screen_320_480.png */,
-				63FFC3091DB818E200E2BB73 /* PC_Splash_Screen_640_1136.png */,
-				63FFC30C1DB81C5600E2BB73 /* PC_Splash_Screen_1242_2208.png */,
-				63FFC3071DB7FC1100E2BB73 /* PC_icon_120.png */,
-				63FFC3031DB7FB2A00E2BB73 /* PC_icon_60.png */,
-				63FFC3011DB7F95400E2BB73 /* PC_icon_40.png */,
-				63FFC2FE1DB7F88A00E2BB73 /* Default.png */,
 				63FFC2BD1DB7CC9000E2BB73 /* LaunchScreen.storyboard */,
 				63FFC2C01DB7CC9000E2BB73 /* Info.plist */,
 				63FFC2AF1DB7CC9000E2BB73 /* Supporting Files */,
@@ -161,6 +149,13 @@
 		63FFC2AF1DB7CC9000E2BB73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63FFC30B1DB81C5600E2BB73 /* PC_Splash_Screen_320_480.png */,
+				63FFC3091DB818E200E2BB73 /* PC_Splash_Screen_640_1136.png */,
+				63FFC30C1DB81C5600E2BB73 /* PC_Splash_Screen_1242_2208.png */,
+				63FFC3071DB7FC1100E2BB73 /* PC_icon_120.png */,
+				63FFC3031DB7FB2A00E2BB73 /* PC_icon_60.png */,
+				63FFC3011DB7F95400E2BB73 /* PC_icon_40.png */,
+				63FFC2FE1DB7F88A00E2BB73 /* Default.png */,
 				63FFC2B01DB7CC9000E2BB73 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -339,7 +334,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				637F4A751DB8824A00ECF65E /* SecondViewController.m in Sources */,
-				637F4A791DB8917600ECF65E /* SCSettings.m in Sources */,
 				63FFC2B71DB7CC9000E2BB73 /* ViewController.m in Sources */,
 				63FFC2B41DB7CC9000E2BB73 /* AppDelegate.m in Sources */,
 				63FFC2B11DB7CC9000E2BB73 /* main.m in Sources */,
